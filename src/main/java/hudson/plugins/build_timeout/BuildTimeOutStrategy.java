@@ -107,7 +107,7 @@ public abstract class BuildTimeOutStrategy implements Describable<BuildTimeOutSt
     }
 
     protected final static boolean hasMacros(@Nonnull String value) {
-        return value.contains("${");
+        return value.contains("$");
     }
    
 }
